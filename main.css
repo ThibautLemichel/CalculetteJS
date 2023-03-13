@@ -15,7 +15,7 @@ body{
     overflow: hidden;
 }
 
-.display {
+.display, .display2 {
     height: 60px;
     padding: 10px;
     font-size: 36px;
