@@ -13,6 +13,10 @@ buttons.forEach(function(button) {
             var result = eval(display.textContent);
             display2.textContent = result;   // Affichage du résultat
         }
+        else if(value === "C"){
+            display.textContent = "";
+            display2.textContent = "";
+        }
         else{
             display.textContent += value;   // Ajout de la valeur au contenu du display
         }
