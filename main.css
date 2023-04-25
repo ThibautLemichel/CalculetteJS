@@ -55,12 +55,12 @@ button:hover {
     background-color: #ff5c5c;
 }
 
-.operator {
+.minus, .plus, .times, .div, .mod {
     background-color: #f8c84e;
     color: #555;
 }
 
-.number {
+.n2 , .n0, .n1, .n3, .n4, .n5, .n6, .n7, .n8, .n9 {
     background-color: #d2d2d2;
     color: #555;
 }
