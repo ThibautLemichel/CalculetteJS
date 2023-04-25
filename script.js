@@ -82,6 +82,7 @@ class Calculator {
         }
     }
 
+    //#region opertor   
     mminus() {
         let value = this.display.textContent;
         console.log("minus")
@@ -146,7 +147,7 @@ class Calculator {
             this.display.textContent = value + '+';
         }
     }
-  
+    //#endregion
     number() {
         let value = this.display.textContent;
         console.log("number")
